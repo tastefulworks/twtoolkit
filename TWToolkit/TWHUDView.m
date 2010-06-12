@@ -105,7 +105,7 @@ static CGFloat kIndicatorSize = 40.0;
 
 
 - (id)initWithTitle:(NSString *)aTitle loading:(BOOL)isLoading {
-	if (self = [super initWithFrame:CGRectZero]) {
+	if ((self = [super initWithFrame:CGRectZero])) {
 
 		// Indicator
 		_activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];

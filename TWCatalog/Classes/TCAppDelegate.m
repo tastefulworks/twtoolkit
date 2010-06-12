@@ -14,9 +14,7 @@
 @synthesize window;
 @synthesize navigationController;
 
-#pragma mark -
 #pragma mark NSObject
-#pragma mark -
 
 - (void)dealloc {
 	[navigationController release];
@@ -24,10 +22,7 @@
     [super dealloc];
 }
 
-
-#pragma mark -
 #pragma mark UIApplicationDelegate
-#pragma mark -
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 

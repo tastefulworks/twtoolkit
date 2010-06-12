@@ -11,28 +11,20 @@
 
 @implementation TCHUDViewDemoViewController
 
-#pragma mark -
 #pragma mark Class Methods
-#pragma mark -
 
 + (NSString *)title {
 	return @"HUD View";
 }
 
-
-#pragma mark -
 #pragma mark NSObject
-#pragma mark -
 
 - (void)dealloc {
 	[hud release];
 	[super dealloc];
 }
 
-
-#pragma mark -
 #pragma mark UIViewController
-#pragma mark -
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -48,10 +40,7 @@
 	[self performSelector:@selector(complete:) withObject:nil afterDelay:2.0];
 }
 
-
-#pragma mark -
 #pragma mark Actions
-#pragma mark -
 
 - (void)complete:(id)sender {
 	[hud completeWithTitle:@"Finished!"];

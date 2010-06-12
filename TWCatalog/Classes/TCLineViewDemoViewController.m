@@ -11,18 +11,13 @@
 
 @implementation TCLineViewDemoViewController
 
-#pragma mark -
 #pragma mark Class Methods
-#pragma mark -
 
 + (NSString *)title {
 	return @"Line View";
 }
 
-
-#pragma mark -
 #pragma mark UIViewController
-#pragma mark -
 
 - (void)viewDidLoad {
 	[super viewDidLoad];

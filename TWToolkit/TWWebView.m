@@ -22,6 +22,7 @@ static NSTimeInterval kTWWebViewLoadDelay = 0.3;
 
 @implementation TWWebView
 
+@dynamic loading;
 @synthesize delegate = _delegate;
 @synthesize scrollingEnabled = _scrollingEnabled;
 @synthesize lastRequest = _lastRequest;
@@ -50,7 +51,7 @@ static NSTimeInterval kTWWebViewLoadDelay = 0.3;
 #pragma mark UIView
 
 - (id)initWithFrame:(CGRect)frame {
-	if (self = [super initWithFrame:frame]) {
+	if ((self = [super initWithFrame:frame])) {
 		_webView = [[UIWebView alloc] initWithFrame:CGRectZero];
 		_webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 		_webView.delegate = self;

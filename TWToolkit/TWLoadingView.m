@@ -38,7 +38,7 @@ static CGFloat indicatorRightMargin = 8.0;
 #pragma mark UIView
 
 - (id)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
+    if ((self = [super initWithFrame:frame])) {
         
 		// View defaults
 		self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;

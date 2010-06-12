@@ -20,29 +20,20 @@ NSString *lorem[] = {
 	
 };
 
-
-#pragma mark -
 #pragma mark Class Methods
-#pragma mark -
 
 + (NSString *)title {
 	return @"Messages";
 }
 
-
-#pragma mark -
 #pragma mark UIViewController
-#pragma mark -
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = [[self class] title];
 }
 
-
-#pragma mark -
 #pragma mark TWMessagesViewController
-#pragma mark -
 
 - (TWMessageTableViewCellMessageStyle)messageStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (indexPath.row % 2) {
@@ -56,10 +47,7 @@ NSString *lorem[] = {
 	return lorem[indexPath.row];
 }
 
-
-#pragma mark -
 #pragma mark UITableViewDataSource
-#pragma mark -
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return sizeof(lorem) / sizeof(NSString *);

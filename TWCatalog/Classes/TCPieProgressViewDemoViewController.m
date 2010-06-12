@@ -11,17 +11,13 @@
 
 @implementation TCPieProgressViewDemoViewController
 
-#pragma mark -
 #pragma mark Class Methods
-#pragma mark -
 
 + (NSString *)title {
 	return @"Pie Progress View";
 }
 
-#pragma mark -
 #pragma mark UIViewController
-#pragma mark -
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -71,10 +67,7 @@
 	[timer invalidate];
 }
 
-
-#pragma mark -
 #pragma mark Timer
-#pragma mark -
 
 - (void)incrementProgress:(NSTimer *)timer {
 	progressView7.progress = progressView7.progress + 0.01;

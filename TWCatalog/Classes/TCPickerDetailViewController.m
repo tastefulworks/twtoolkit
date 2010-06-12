@@ -11,19 +11,14 @@
 
 @implementation TCPickerDetailViewController
 
-#pragma mark -
 #pragma mark UIViewController
-#pragma mark -
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = @"Choose";
 }
 
-
-#pragma mark -
 #pragma mark TWPickerViewController
-#pragma mark -
 
 - (void)loadKeys {
 	self.keys = [[NSTimeZone abbreviationDictionary] allKeys];
@@ -34,10 +29,7 @@
 	return  [[NSTimeZone timeZoneWithAbbreviation:key] name];
 }
 
-
-#pragma mark -
 #pragma mark UITableViewDelegate
-#pragma mark -
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];

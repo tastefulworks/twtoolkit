@@ -11,6 +11,7 @@
 #import <TWToolkit/TWMessagesViewController.h>
 
 // Views
+#import <TWToolkit/TWCollectionView.h>
 #import <TWToolkit/TWGradientView.h>
 #import <TWToolkit/TWHUDView.h>
 #import <TWToolkit/TWLoadingView.h>

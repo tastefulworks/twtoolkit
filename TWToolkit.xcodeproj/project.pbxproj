@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		B21134DB11C3035900DEAA50 /* TWCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = B21134D911C3035900DEAA50 /* TWCollectionView.h */; };
+		B21134DC11C3035900DEAA50 /* TWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21134DA11C3035900DEAA50 /* TWCollectionView.m */; };
+		B21134FD11C306FA00DEAA50 /* TWCollectionViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B21134FB11C306FA00DEAA50 /* TWCollectionViewItem.h */; };
+		B21134FE11C306FA00DEAA50 /* TWCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B21134FC11C306FA00DEAA50 /* TWCollectionViewItem.m */; };
 		B213D07C11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.h in Headers */ = {isa = PBXBuildFile; fileRef = B213D07A11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.h */; };
 		B213D07D11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.m in Sources */ = {isa = PBXBuildFile; fileRef = B213D07B11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.m */; };
 		B213D08311AE1DEE00BACA8D /* NSDate+timeAgoInWords.h in Headers */ = {isa = PBXBuildFile; fileRef = B213D08111AE1DEE00BACA8D /* NSDate+timeAgoInWords.h */; };
@@ -76,6 +80,10 @@
 
 /* Begin PBXFileReference section */
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B21134D911C3035900DEAA50 /* TWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCollectionView.h; sourceTree = "<group>"; };
+		B21134DA11C3035900DEAA50 /* TWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCollectionView.m; sourceTree = "<group>"; };
+		B21134FB11C306FA00DEAA50 /* TWCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCollectionViewItem.h; sourceTree = "<group>"; };
+		B21134FC11C306FA00DEAA50 /* TWCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCollectionViewItem.m; sourceTree = "<group>"; };
 		B213D07A11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateFromISO8601String.h"; sourceTree = "<group>"; };
 		B213D07B11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateFromISO8601String.m"; sourceTree = "<group>"; };
 		B213D08111AE1DEE00BACA8D /* NSDate+timeAgoInWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+timeAgoInWords.h"; sourceTree = "<group>"; };
@@ -245,6 +253,10 @@
 		B28517D71063E433008D42E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B21134D911C3035900DEAA50 /* TWCollectionView.h */,
+				B21134DA11C3035900DEAA50 /* TWCollectionView.m */,
+				B21134FB11C306FA00DEAA50 /* TWCollectionViewItem.h */,
+				B21134FC11C306FA00DEAA50 /* TWCollectionViewItem.m */,
 				B2503B9310A90DA6009B0E7B /* TWGradientView.h */,
 				B2503B9410A90DA6009B0E7B /* TWGradientView.m */,
 				B253C1F810728DC500E0CE10 /* TWHUDView.h */,
@@ -384,6 +396,8 @@
 				B2D3527111A46A4900B1886F /* TWKeychain.h in Headers */,
 				B213D07C11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.h in Headers */,
 				B213D08311AE1DEE00BACA8D /* NSDate+timeAgoInWords.h in Headers */,
+				B21134DB11C3035900DEAA50 /* TWCollectionView.h in Headers */,
+				B21134FD11C306FA00DEAA50 /* TWCollectionViewItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +476,8 @@
 				B2D3527211A46A4900B1886F /* TWKeychain.m in Sources */,
 				B213D07D11AE1D1D00BACA8D /* NSDate+dateFromISO8601String.m in Sources */,
 				B213D08411AE1DEE00BACA8D /* NSDate+timeAgoInWords.m in Sources */,
+				B21134DC11C3035900DEAA50 /* TWCollectionView.m in Sources */,
+				B21134FE11C306FA00DEAA50 /* TWCollectionViewItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,10 +497,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/TWToolkit_Prefix.pch";
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INSTALL_PATH = /usr/local/lib;
 				LD_OPENMP_FLAGS = "-fopenmp -lxml2";
 				PRODUCT_NAME = TWToolkit;
+				SDKROOT = iphoneos3.1;
 			};
 			name = Debug;
 		};
@@ -497,10 +515,12 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/TWToolkit_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INSTALL_PATH = /usr/local/lib;
 				LD_OPENMP_FLAGS = "-fopenmp -lxml2";
 				PRODUCT_NAME = TWToolkit;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};
