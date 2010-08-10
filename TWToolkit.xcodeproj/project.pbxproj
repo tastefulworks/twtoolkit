@@ -21,6 +21,8 @@
 		B21D2EF71185ED25009F7206 /* TWWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D2EF51185ED25009F7206 /* TWWebView.m */; };
 		B24244E611498A480061E255 /* TWTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B24244E411498A480061E255 /* TWTextField.h */; };
 		B24244E711498A480061E255 /* TWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B24244E511498A480061E255 /* TWTextField.m */; };
+		B245240A1211EC9400E80F78 /* TWSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = B24524081211EC9400E80F78 /* TWSwitch.h */; };
+		B245240B1211EC9400E80F78 /* TWSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B24524091211EC9400E80F78 /* TWSwitch.m */; };
 		B24B551810B36F6B0014994C /* UIImage+TWToolkitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B24B551610B36F6B0014994C /* UIImage+TWToolkitAdditions.h */; };
 		B24B551910B36F6B0014994C /* UIImage+TWToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B24B551710B36F6B0014994C /* UIImage+TWToolkitAdditions.m */; };
 		B2503B9510A90DA6009B0E7B /* TWGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2503B9310A90DA6009B0E7B /* TWGradientView.h */; };
@@ -89,6 +91,8 @@
 		B22A2A8010B4908D00EA6CD9 /* TWToolkit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TWToolkit.bundle; sourceTree = "<group>"; };
 		B24244E411498A480061E255 /* TWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTextField.h; sourceTree = "<group>"; };
 		B24244E511498A480061E255 /* TWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTextField.m; sourceTree = "<group>"; };
+		B24524081211EC9400E80F78 /* TWSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSwitch.h; sourceTree = "<group>"; };
+		B24524091211EC9400E80F78 /* TWSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSwitch.m; sourceTree = "<group>"; };
 		B24B551610B36F6B0014994C /* UIImage+TWToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TWToolkitAdditions.h"; sourceTree = "<group>"; };
 		B24B551710B36F6B0014994C /* UIImage+TWToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TWToolkitAdditions.m"; sourceTree = "<group>"; };
 		B2503B9310A90DA6009B0E7B /* TWGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGradientView.h; sourceTree = "<group>"; };
@@ -229,6 +233,15 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		B24524071211EC8B00E80F78 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B24524081211EC9400E80F78 /* TWSwitch.h */,
+				B24524091211EC9400E80F78 /* TWSwitch.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
 		B28517D51063E42A008D42E7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +347,7 @@
 				B27E357B11815C7F006A3499 /* TWDrawingMacros.h */,
 				B28517D51063E42A008D42E7 /* View Controllers */,
 				B28517D71063E433008D42E7 /* Views */,
+				B24524071211EC8B00E80F78 /* Controls */,
 				B2D3526E11A46A4000B1886F /* Misc */,
 				B2C20765106296F200AE1B56 /* Categories */,
 				B23A34B3117C954B0085E48A /* Private */,
@@ -381,6 +395,7 @@
 				B2A1128612073D240049990A /* TWIndicatorLabel.h in Headers */,
 				B2A1128812073D240049990A /* TWLabel.h in Headers */,
 				B2752E02120B4A1E003B0087 /* TWConcurrentOperation.h in Headers */,
+				B245240A1211EC9400E80F78 /* TWSwitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +473,7 @@
 				B2A1128712073D240049990A /* TWIndicatorLabel.m in Sources */,
 				B2A1128912073D240049990A /* TWLabel.m in Sources */,
 				B2752E03120B4A1E003B0087 /* TWConcurrentOperation.m in Sources */,
+				B245240B1211EC9400E80F78 /* TWSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
