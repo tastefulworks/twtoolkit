@@ -14,6 +14,7 @@
 #import <TWToolkit/TWLineView.h>
 #import <TWToolkit/TWLoadingView.h>
 #import <TWToolkit/TWPieProgressView.h>
+#import <TWToolkit/TWSlider.h>
 #import <TWToolkit/TWTextField.h>
 #import <TWToolkit/TWTextView.h>
 #import <TWToolkit/TWWebView.h>
