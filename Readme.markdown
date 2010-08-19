@@ -1,4 +1,4 @@
-<span style="color:red">**IMPORTANT:** TWToolkit has been renamed and is now being maintained at [SSToolkit](http://github.com/samsoffes/sstoolkit).</span>
+**IMPORTANT:** TWToolkit has been renamed and is now being maintained at [SSToolkit](http://github.com/samsoffes/sstoolkit).
 
 # TWToolkit
 
